@@ -61,7 +61,7 @@
     <a href="https://github.com/singhayush1807/data-analysis" target="_blank">
       <rect class="card" x="265" y="140" width="250" height="120"/>
       <path class="icon" d="M285 160 h16 v16 h-16 z" rx="4"/>
-      <text class="proj-title" x="310" y="174">data-analysis</text>
+      <text class="proj-title" x="310" y="174" font-size="15">data-analysis</text>
       <text class="desc" x="285" y="200">Python data visualization</text>
       <text class="desc" x="285" y="220">and analysis scripts.</text>
       <circle cx="290" cy="240" r="5" fill="#3572A5"/> <text class="desc" x="300" y="244" font-size="10">Python</text>
@@ -71,7 +71,7 @@
     <a href="https://github.com/singhayush1807/CounterProjectWebd" target="_blank">
       <rect class="card" x="530" y="140" width="250" height="120"/>
       <path class="icon" d="M550 160 h16 v16 h-16 z" rx="4"/>
-      <text class="title" x="575" y="174">CounterProjectWebd</text>
+      <text class="proj-title" x="575" y="174" font-size="14">CounterProjectWebd</text>
       <text class="desc" x="550" y="200">Interactive web counter</text>
       <text class="desc" x="550" y="220">with state management.</text>
       <circle cx="555" cy="240" r="5" fill="#f1e05a"/> <text class="desc" x="565" y="244" font-size="10">JavaScript</text>
