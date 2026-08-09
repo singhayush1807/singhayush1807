@@ -10,7 +10,7 @@
     </style>
   </defs>
   
-  <rect width="960" height="250" fill="#E8F5E9"/>
+  <rect width="960" height="250" rx="24" fill="#E8F5E9"/>
   
   <g transform="translate(180, 5)" font-family="'Inter', 'Segoe UI', sans-serif" font-size="14" fill="#1B5E20" font-weight="600">
     <text x="30" y="45">DSA &amp; Problem Solving</text>

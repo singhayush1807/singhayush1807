@@ -29,8 +29,8 @@
     </style>
   </defs>
 
-  <!-- Main Background -->
-  <rect width="960" height="420" fill="url(#bgGrad)"/>
+  <!-- Main Background Card -->
+  <rect width="960" height="420" rx="24" fill="url(#bgGrad)"/>
   
   <!-- Subtle decorative circles -->
   <circle cx="850" cy="50" r="150" fill="#A5D6A7" opacity="0.2"/>
