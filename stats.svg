@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" fill="none">
+  <defs>
+    <style>
+      .bg { fill: #E8F5E9; stroke: #A5D6A7; stroke-width: 2; rx: 12; }
+      .text { font-family: 'Inter', sans-serif; font-weight: 700; fill: #1B5E20; }
+      .label { font-family: 'Inter', sans-serif; font-size: 14px; fill: #2E7D32; font-weight: 600; }
+      .value { font-family: 'JetBrains Mono', monospace; font-size: 28px; fill: #1B5E20; font-weight: 800; }
+      .circle { fill: none; stroke: #66BB6A; stroke-width: 8; stroke-dasharray: 250; stroke-dashoffset: 250; animation: draw 1.5s ease-out forwards; }
+      @keyframes draw { to { stroke-dashoffset: 60; } }
+      .lang-bar { rx: 5; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="800" height="200"/>
+
+  <!-- Stats Grid -->
+  <g transform="translate(40, 40)">
+    <text class="label" x="0" y="0">Total Stars Earned</text>
+    <text class="value" x="0" y="40">245+</text>
+
+    <text class="label" x="200" y="0">Total Commits (2026)</text>
+    <text class="value" x="200" y="40">1.2k</text>
+
+    <text class="label" x="0" y="90">Total PRs</text>
+    <text class="value" x="0" y="130">84</text>
+
+    <text class="label" x="200" y="90">Total Issues</text>
+    <text class="value" x="200" y="130">32</text>
+  </g>
+
+  <!-- Languages Chart -->
+  <g transform="translate(450, 40)">
+    <text class="label" x="0" y="0">Most Used Languages</text>
+    
+    <rect class="lang-bar" x="0" y="20" width="300" height="10" fill="#E0E0E0"/>
+    <rect class="lang-bar" x="0" y="20" width="120" height="10" fill="#f1e05a"/> <!-- JS -->
+    <rect class="lang-bar" x="120" y="20" width="80" height="10" fill="#3178c6"/> <!-- TS -->
+    <rect class="lang-bar" x="200" y="20" width="60" height="10" fill="#f34b7d"/> <!-- C++ -->
+    <rect class="lang-bar" x="260" y="20" width="40" height="10" fill="#3572A5"/> <!-- Python -->
+
+    <circle cx="10" cy="50" r="5" fill="#f1e05a"/> <text class="label" x="25" y="55" font-size="12">JavaScript (40%)</text>
+    <circle cx="150" cy="50" r="5" fill="#3178c6"/> <text class="label" x="165" y="55" font-size="12">TypeScript (25%)</text>
+    <circle cx="10" cy="80" r="5" fill="#f34b7d"/> <text class="label" x="25" y="85" font-size="12">C++ (20%)</text>
+    <circle cx="150" cy="80" r="5" fill="#3572A5"/> <text class="label" x="165" y="85" font-size="12">Python (15%)</text>
+  </g>
+</svg>

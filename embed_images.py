@@ -10,11 +10,11 @@ def process_image(img_path, max_size):
         img.save(buffer, format="PNG", optimize=True)
         return "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode('utf-8')
 
-print("Processing character.png...")
-char_b64 = process_image("character.png", (400, 500))
+print("Processing profile-hero.png...")
+char_b64 = process_image("assets/profile-hero.png", (400, 500))
 
-print("Processing photo.png...")
-photo_b64 = process_image("photo.png", (200, 200))
+print("Processing profile-avatar.png...")
+photo_b64 = process_image("assets/profile-avatar.png", (300, 300))
 
 def replace_in_file(filepath, pattern, replacement):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -24,12 +24,9 @@ def replace_in_file(filepath, pattern, replacement):
         f.write(content)
 
 print("Updating hero.svg...")
-replace_in_file("hero.svg", r'href="\./character\.png"', f'href="{char_b64}"')
-
-print("Updating hero-light.svg...")
-replace_in_file("hero-light.svg", r'href="\./character\.png"', f'href="{char_b64}"')
+replace_in_file("hero.svg", r'href="\./assets/profile-hero\.png"', f'href="{char_b64}"')
 
 print("Updating lanyard.svg...")
-replace_in_file("lanyard.svg", r'href="\./photo\.png"', f'href="{photo_b64}"')
+replace_in_file("lanyard.svg", r'href="\./assets/profile-avatar\.png"', f'href="{photo_b64}"')
 
 print("Done!")

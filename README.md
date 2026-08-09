@@ -5,14 +5,9 @@
 
 <a name="top"></a>
 
-<!-- ═══════════════ ANIMATED HEADER ═══════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E8F5E9,50:A5D6A7,100:66BB6A&height=100&section=header&text=&fontSize=0" width="100%"/>
-
-<!-- ═══════════════ HERO BANNER ═══════════════ -->
+<!-- ═══════════════ HERO BANNER (Includes Wave Header) ═══════════════ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="./hero.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg?v=3">
-  <img alt="Ayush Kumar — CSE Student · Full Stack Developer" src="./hero.svg?v=3" width="100%">
+  <img alt="Ayush Kumar — CSE Student · Full Stack Developer" src="./hero.svg?v=4" width="100%">
 </picture>
 
 <!-- ═══════════════ QUICK NAV ═══════════════ -->
@@ -33,13 +28,13 @@
 <!-- ═══════════════ ABOUT ═══════════════ -->
 <a name="about"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=1B5E20&center=false&vCenter=true&multiline=false&width=700&height=50&lines=%F0%9F%91%8B+Hey+there!+I'm+Ayush+Kumar" alt="greeting" />
+## 👋 Hey there! I'm Ayush Kumar
 
-> **Name:** Ayush Kumar
-> **Role:** B.Tech CSE Student · Full Stack Developer
-> **Home:** Vaishali, Bihar 🇮🇳
-> **College:** Poornima College of Engineering, Jaipur
-> **Mindset:** Code · Learn · Build · Repeat
+> **Name:** Ayush Kumar  
+> **Role:** B.Tech CSE Student · Full Stack Developer  
+> **Home:** Vaishali, Bihar 🇮🇳  
+> **College:** Poornima College of Engineering, Jaipur  
+> **Mindset:** Code · Learn · Build · Repeat  
 
 I'm a Computer Science student passionate about building **real-world applications**.
 From tournament platforms to blog websites, I love turning ideas into working
@@ -50,10 +45,10 @@ software using the **MERN stack**, **C++**, and **Python**.
 <!-- ═══════════════ DEVELOPER ID CARD ═══════════════ -->
 <a name="id"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+developer_id" alt="id" />
+## 🪪 Developer ID
 
 <div align="center">
-  <img alt="Developer ID Card — Ayush Kumar" src="./lanyard.svg?v=3" width="420">
+  <img alt="Developer ID Card — Ayush Kumar" src="./lanyard.svg?v=4" width="420">
 </div>
 
 <br/>
@@ -61,7 +56,7 @@ software using the **MERN stack**, **C++**, and **Python**.
 <!-- ═══════════════ TECH SKILLS ═══════════════ -->
 <a name="skills"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+tech_stack" alt="skills" />
+## 💻 Tech Stack
 
 <div align="center">
 
@@ -80,50 +75,21 @@ software using the **MERN stack**, **C++**, and **Python**.
 
 <!-- ═══════════════ CURRENTLY LEARNING ═══════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+currently_learning" alt="learning" />
+## 📚 Currently Learning
 
-```text
-singhayush1807:~$ cat current-focus.txt
-
-Currently working on →
-
-▸ DSA & Problem Solving
-  Strengthening fundamentals through regular practice
-
-▸ LLD
-  Learning clean, modular and maintainable design
-
-▸ HLD & System Design
-  Understanding how scalable applications are designed
-
-▸ Software Development
-  Turning what I learn into practical projects
-
-[ status ] learning → building → improving
-```
+<div align="center">
+  <img alt="Learning Progress" src="./learning-progress.svg" width="600">
+</div>
 
 <br/>
 
 <!-- ═══════════════ FEATURED PROJECTS ═══════════════ -->
 <a name="projects"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+featured_projects" alt="projects" />
+## 🚀 Featured Projects
 
 <div align="center">
-
-<!-- Project Cards using github-readme-stats (Markdown syntax for better proxy support) -->
-[![PrimeCup](https://github-readme-stats.vercel.app/api/pin/?username=singhayush1807&repo=primecup-releases&hide_border=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=33691E)](https://github.com/singhayush1807/primecup-releases)
-&nbsp;
-[![BLOG](https://github-readme-stats.vercel.app/api/pin/?username=singhayush1807&repo=BLOG&hide_border=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=33691E)](https://github.com/singhayush1807/BLOG)
-
-[![Calculator](https://github-readme-stats.vercel.app/api/pin/?username=singhayush1807&repo=Calculator&hide_border=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=33691E)](https://github.com/singhayush1807/Calculator)
-&nbsp;
-[![cpp-todo-list](https://github-readme-stats.vercel.app/api/pin/?username=singhayush1807&repo=cpp-todo-list&hide_border=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=33691E)](https://github.com/singhayush1807/cpp-todo-list)
-
-[![data-analysis](https://github-readme-stats.vercel.app/api/pin/?username=singhayush1807&repo=data-analysis&hide_border=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=33691E)](https://github.com/singhayush1807/data-analysis)
-&nbsp;
-[![CounterProject](https://github-readme-stats.vercel.app/api/pin/?username=singhayush1807&repo=CounterProjectWebd&hide_border=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=33691E)](https://github.com/singhayush1807/CounterProjectWebd)
-
+  <img alt="Projects Grid" src="./projects.svg" width="800">
 </div>
 
 <br/>
@@ -131,41 +97,17 @@ Currently working on →
 <!-- ═══════════════ GITHUB STATS ═══════════════ -->
 <a name="stats"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+github_stats" alt="stats" />
+## 📈 GitHub Stats
 
 <div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=singhayush1807&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=E8F5E9&title_color=1B5E20&icon_color=2E7D32&text_color=1B5E20&ring_color=66BB6A)
-&nbsp;
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=singhayush1807&layout=compact&hide_border=true&langs_count=8&bg_color=E8F5E9&title_color=1B5E20&text_color=1B5E20)
-
-<br/><br/>
-
-![Streak](https://streak-stats.demolab.com?user=singhayush1807&hide_border=true&background=E8F5E9&ring=66BB6A&fire=2E7D32&currStreakLabel=1B5E20&sideLabels=1B5E20&currStreakNum=1B5E20&sideNums=1B5E20&dates=2E7D32&stroke=C8E6C9)
-
-<br/><br/>
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=singhayush1807&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=6)
-
-</div>
-
-<br/>
-
-<!-- ═══════════════ CONTRIBUTION GRAPH ═══════════════ -->
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+contribution_graph" alt="graph" />
-
-<div align="center">
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=singhayush1807&bg_color=E8F5E9&color=1B5E20&line=66BB6A&point=2E7D32&area=true&area_color=A5D6A7&hide_border=true&custom_title=Contribution%20Activity)
-
+  <img alt="GitHub Stats" src="./stats.svg" width="800">
 </div>
 
 <br/>
 
 <!-- ═══════════════ CONTRIBUTION SNAKE ═══════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+contribution_snake+%F0%9F%90%8D" alt="snake" />
+## 🐍 Contribution Snake
 
 <div align="center">
 
@@ -185,14 +127,11 @@ Currently working on →
 <!-- ═══════════════ CONNECT ═══════════════ -->
 <a name="connect"></a>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&pause=1000&color=1B5E20&center=false&vCenter=true&width=600&height=45&lines=%2F%2F+let's_connect+%F0%9F%A4%9D" alt="connect" />
+## 🤝 Let's Connect
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-singhayush1807-E8F5E9?style=for-the-badge&logo=github&logoColor=1B5E20&labelColor=66BB6A)](https://github.com/singhayush1807)
-<!-- Uncomment and add your links: -->
-<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-E8F5E9?style=for-the-badge&logo=linkedin&logoColor=1B5E20&labelColor=66BB6A)](YOUR_URL) -->
-<!-- [![Twitter](https://img.shields.io/badge/Twitter-Follow-E8F5E9?style=for-the-badge&logo=x&logoColor=1B5E20&labelColor=66BB6A)](YOUR_URL) -->
 
 <br/><br/>
 
@@ -200,9 +139,7 @@ Currently working on →
 
 <br/><br/>
 
-<sub>
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=400&size=14&duration=4000&pause=1000&color=2E7D32&center=true&vCenter=true&width=500&height=25&lines=Thanks+for+visiting!+%E2%AD%90;Code+%C2%B7+Learn+%C2%B7+Build+%C2%B7+Repeat+%F0%9F%94%81;Let's+build+something+amazing+together+%F0%9F%9A%80" alt="footer" />
-</sub>
+**Thanks for visiting! ⭐ Let's build something amazing together 🚀**
 
 <br/>
 
@@ -211,4 +148,4 @@ Currently working on →
 </div>
 
 <!-- ═══════════════ ANIMATED FOOTER ═══════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:66BB6A,50:A5D6A7,100:E8F5E9&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:66BB6A,50:A5D6A7,100:E8F5E9&height=120&section=footer" width="100%"/>
