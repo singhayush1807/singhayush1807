@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" fill="none">
+  <defs>
+    <style>
+      .bg { fill: #E8F5E9; }
+      .title { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: bold; fill: #1B5E20; }
+      .category { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: bold; fill: #2E7D32; }
+      .chip { fill: #C8E6C9; rx: 15; stroke: #A5D6A7; }
+      .chip-text { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; fill: #1B5E20; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="250"/>
+  <text class="title" x="50" y="50">// tech_stack</text>
+
+  <!-- Languages -->
+  <text class="category" x="50" y="100">Languages</text>
+  <g transform="translate(50, 115)">
+    <rect class="chip" x="0" y="0" width="80" height="30"/><text class="chip-text" x="40" y="20">C++</text>
+    <rect class="chip" x="90" y="0" width="120" height="30"/><text class="chip-text" x="150" y="20">JavaScript</text>
+    <rect class="chip" x="220" y="0" width="120" height="30"/><text class="chip-text" x="280" y="20">TypeScript</text>
+    <rect class="chip" x="350" y="0" width="90" height="30"/><text class="chip-text" x="395" y="20">Python</text>
+    <rect class="chip" x="450" y="0" width="100" height="30"/><text class="chip-text" x="500" y="20">HTML/CSS</text>
+  </g>
+
+  <!-- Frameworks -->
+  <text class="category" x="50" y="180">Frameworks &amp; Tools</text>
+  <g transform="translate(50, 195)">
+    <rect class="chip" x="0" y="0" width="90" height="30"/><text class="chip-text" x="45" y="20">React</text>
+    <rect class="chip" x="100" y="0" width="90" height="30"/><text class="chip-text" x="145" y="20">Node.js</text>
+    <rect class="chip" x="200" y="0" width="100" height="30"/><text class="chip-text" x="250" y="20">Express</text>
+    <rect class="chip" x="310" y="0" width="100" height="30"/><text class="chip-text" x="360" y="20">MongoDB</text>
+    <rect class="chip" x="420" y="0" width="120" height="30"/><text class="chip-text" x="480" y="20">Tailwind CSS</text>
+    <rect class="chip" x="550" y="0" width="80" height="30"/><text class="chip-text" x="590" y="20">Git</text>
+    <rect class="chip" x="640" y="0" width="90" height="30"/><text class="chip-text" x="685" y="20">GitHub</text>
+  </g>
+</svg>

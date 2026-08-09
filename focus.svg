@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" fill="none">
+  <defs>
+    <style>
+      .bg { fill: #E8F5E9; }
+      .title { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: bold; fill: #1B5E20; }
+      .text { font-family: 'Inter', sans-serif; font-size: 15px; fill: #2E7D32; font-weight: 500; }
+      .heading { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: bold; fill: #1B5E20; }
+      .terminal { fill: #1B5E20; rx: 8; }
+      .term-text { font-family: 'JetBrains Mono', monospace; font-size: 14px; fill: #A5D6A7; }
+      .white { fill: #E8F5E9; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="300"/>
+
+  <text class="title" x="50" y="50">// currently_learning</text>
+
+  <g transform="translate(50, 80)">
+    <rect class="terminal" width="860" height="200"/>
+    <!-- Mac OS buttons -->
+    <circle cx="20" cy="15" r="5" fill="#ef5350"/>
+    <circle cx="35" cy="15" r="5" fill="#ffca28"/>
+    <circle cx="50" cy="15" r="5" fill="#66BB6A"/>
+    
+    <g class="term-text" transform="translate(20, 50)">
+      <text x="0" y="0"><tspan class="white">singhayush1807:~$</tspan> cat current-focus.txt</text>
+      
+      <text x="0" y="30" class="white">Currently working on →</text>
+      
+      <text x="0" y="60">▸ DSA &amp; Problem Solving</text>
+      <text x="20" y="80">Strengthening fundamentals through regular practice</text>
+      
+      <text x="400" y="60">▸ LLD &amp; System Design</text>
+      <text x="420" y="80">Learning clean, modular architecture</text>
+      
+      <text x="0" y="110">▸ Full Stack Development</text>
+      <text x="20" y="130">Turning ideas into scalable practical projects</text>
+      
+      <text x="400" y="110">▸ High Level Design (HLD)</text>
+      <text x="420" y="130">Understanding how robust applications scale</text>
+
+      <text x="0" y="170" fill="#66BB6A">[ status ] learning → building → improving</text>
+    </g>
+  </g>
+</svg>

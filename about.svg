@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" fill="none">
+  <defs>
+    <style>
+      .bg { fill: #E8F5E9; }
+      .title { font-family: 'JetBrains Mono', monospace; font-size: 28px; font-weight: bold; fill: #1B5E20; }
+      .text { font-family: 'Inter', sans-serif; font-size: 16px; fill: #1B5E20; }
+      .bold { font-weight: bold; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="250"/>
+
+  <text class="title" x="50" y="60">👋 Hey there! I'm Ayush Kumar</text>
+  
+  <g class="text">
+    <text x="50" y="110"><tspan class="bold">Name:</tspan> Ayush Kumar</text>
+    <text x="50" y="140"><tspan class="bold">Role:</tspan> B.Tech CSE Student · Full Stack Developer</text>
+    <text x="50" y="170"><tspan class="bold">Home:</tspan> Vaishali, Bihar</text>
+    <text x="50" y="200"><tspan class="bold">College:</tspan> Poornima College of Engineering, Jaipur</text>
+    <text x="50" y="230"><tspan class="bold">Mindset:</tspan> Code · Learn · Build · Repeat</text>
+  </g>
+
+  <g class="text" transform="translate(500, 0)">
+    <text x="0" y="130">I'm a Computer Science student passionate</text>
+    <text x="0" y="160">about building <tspan class="bold">real-world applications.</tspan></text>
+    <text x="0" y="190">From tournament platforms to blog websites,</text>
+    <text x="0" y="220">I love turning ideas into working software</text>
+    <text x="0" y="250">using the <tspan class="bold">MERN stack, C++, and Python.</tspan></text>
+  </g>
+</svg>

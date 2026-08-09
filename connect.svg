@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="100%" fill="none">
+  <defs>
+    <style>
+      .bg { fill: #E8F5E9; }
+      .title { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: bold; fill: #1B5E20; }
+      .text { font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 600; fill: #1B5E20; text-anchor: middle; }
+      .chip { fill: #C8E6C9; stroke: #A5D6A7; rx: 12; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="250"/>
+  <text class="title" x="50" y="50">// let's_connect</text>
+
+  <g transform="translate(480, 100)">
+    <!-- GitHub Link -->
+    <a href="https://github.com/singhayush1807" target="_blank">
+      <rect class="chip" x="-100" y="0" width="200" height="40"/>
+      <text class="text" x="0" y="25">⭐ singhayush1807</text>
+    </a>
+  </g>
+
+  <text class="text" x="480" y="190">Thanks for visiting! ⭐ Let's build something amazing together 🚀</text>
+</svg>

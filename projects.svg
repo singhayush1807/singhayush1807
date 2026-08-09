@@ -1,21 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" fill="none">
   <defs>
     <style>
-      .card { fill: #E8F5E9; stroke: #A5D6A7; stroke-width: 1.5; rx: 8; transition: all 0.3s; }
+      .bg { fill: #E8F5E9; }
+      .title { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: bold; fill: #1B5E20; }
+      .card { fill: #C8E6C9; stroke: #A5D6A7; stroke-width: 1.5; rx: 8; transition: all 0.3s; }
       .card:hover { transform: translateY(-4px); stroke: #2E7D32; filter: drop-shadow(0 4px 6px rgba(27,94,32,0.2)); }
-      .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #1B5E20; }
+      .proj-title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; fill: #1B5E20; }
       .desc { font-family: 'Inter', sans-serif; font-size: 12px; fill: #2E7D32; }
       .icon { fill: #66BB6A; }
     </style>
   </defs>
 
-  <g transform="translate(10, 10)">
+  <rect class="bg" width="960" height="380"/>
+  <text class="title" x="50" y="50">// featured_projects</text>
+
+  <g transform="translate(90, 80)">
     <!-- Row 1 -->
     <!-- PrimeCup -->
     <a href="https://github.com/singhayush1807/primecup-releases" target="_blank">
       <rect class="card" x="0" y="0" width="250" height="120"/>
       <path class="icon" d="M20 20 h16 v16 h-16 z" rx="4"/>
-      <text class="title" x="45" y="34">PrimeCup</text>
+      <text class="proj-title" x="45" y="34">PrimeCup</text>
       <text class="desc" x="20" y="60">Esports tournament platform</text>
       <text class="desc" x="20" y="80">with real-time matches.</text>
       <circle cx="25" cy="100" r="5" fill="#f1e05a"/> <text class="desc" x="35" y="104" font-size="10">JavaScript</text>
@@ -25,7 +30,7 @@
     <a href="https://github.com/singhayush1807/BLOG" target="_blank">
       <rect class="card" x="265" y="0" width="250" height="120"/>
       <path class="icon" d="M285 20 h16 v16 h-16 z" rx="4"/>
-      <text class="title" x="310" y="34">BLOG</text>
+      <text class="proj-title" x="310" y="34">BLOG</text>
       <text class="desc" x="285" y="60">Full-stack blogging website</text>
       <text class="desc" x="285" y="80">built with MERN.</text>
       <circle cx="290" cy="100" r="5" fill="#3178c6"/> <text class="desc" x="300" y="104" font-size="10">TypeScript</text>
@@ -35,7 +40,7 @@
     <a href="https://github.com/singhayush1807/Calculator" target="_blank">
       <rect class="card" x="530" y="0" width="250" height="120"/>
       <path class="icon" d="M550 20 h16 v16 h-16 z" rx="4"/>
-      <text class="title" x="575" y="34">Calculator</text>
+      <text class="proj-title" x="575" y="34">Calculator</text>
       <text class="desc" x="550" y="60">Web-based calculator app</text>
       <text class="desc" x="550" y="80">with advanced functions.</text>
       <circle cx="555" cy="100" r="5" fill="#e34c26"/> <text class="desc" x="565" y="104" font-size="10">HTML/CSS</text>
@@ -46,7 +51,7 @@
     <a href="https://github.com/singhayush1807/cpp-todo-list" target="_blank">
       <rect class="card" x="0" y="140" width="250" height="120"/>
       <path class="icon" d="M20 160 h16 v16 h-16 z" rx="4"/>
-      <text class="title" x="45" y="174">cpp-todo-list</text>
+      <text class="proj-title" x="45" y="174">cpp-todo-list</text>
       <text class="desc" x="20" y="200">Terminal-based task manager</text>
       <text class="desc" x="20" y="220">written in C++.</text>
       <circle cx="25" cy="240" r="5" fill="#f34b7d"/> <text class="desc" x="35" y="244" font-size="10">C++</text>
@@ -56,7 +61,7 @@
     <a href="https://github.com/singhayush1807/data-analysis" target="_blank">
       <rect class="card" x="265" y="140" width="250" height="120"/>
       <path class="icon" d="M285 160 h16 v16 h-16 z" rx="4"/>
-      <text class="title" x="310" y="174">data-analysis</text>
+      <text class="proj-title" x="310" y="174">data-analysis</text>
       <text class="desc" x="285" y="200">Python data visualization</text>
       <text class="desc" x="285" y="220">and analysis scripts.</text>
       <circle cx="290" cy="240" r="5" fill="#3572A5"/> <text class="desc" x="300" y="244" font-size="10">Python</text>
