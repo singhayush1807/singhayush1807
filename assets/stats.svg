@@ -12,7 +12,7 @@
   </defs>
 
   <rect class="bg" width="960" height="250"/>
-  <text class="title" x="50" y="50">// github_stats</text>
+  <text class="title" x="480" text-anchor="middle" y="50">// github_stats</text>
 
   <rect class="stat-bg" x="50" y="70" width="860" height="150"/>
 

@@ -10,9 +10,11 @@
     </style>
   </defs>
   
-  <rect width="960" height="250" rx="24" fill="#E8F5E9"/>
+  <rect width="960" height="280" rx="24" fill="#E8F5E9"/>
   
-  <g transform="translate(180, 5)" font-family="'Inter', 'Segoe UI', sans-serif" font-size="14" fill="#1B5E20" font-weight="600">
+  <text class="title" x="480" y="50" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="bold" fill="#1B5E20" text-anchor="middle">// current_focus</text>
+  
+  <g transform="translate(180, 35)" font-family="'Inter', 'Segoe UI', sans-serif" font-size="14" fill="#1B5E20" font-weight="600">
     <text x="30" y="45">DSA &amp; Problem Solving</text>
     <rect x="30" y="55" width="500" height="12" rx="6" fill="#C8E6C9"/>
     <rect x="30" y="55" width="400" height="12" rx="6" fill="url(#barGrad)" class="bar"/>

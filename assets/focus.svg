@@ -13,7 +13,7 @@
 
   <rect class="bg" width="960" height="300"/>
 
-  <text class="title" x="50" y="50">// currently_learning</text>
+  <text class="title" x="480" text-anchor="middle" y="50">// currently_learning</text>
 
   <g transform="translate(50, 80)">
     <rect class="terminal" width="860" height="200"/>

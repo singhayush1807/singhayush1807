@@ -12,7 +12,7 @@
   </defs>
 
   <rect class="bg" width="960" height="380" rx="24"/>
-  <text class="title" x="50" y="50">// featured_projects</text>
+  <text class="title" x="480" text-anchor="middle" y="50">// featured_projects</text>
 
   <g transform="translate(90, 80)">
     <!-- Row 1 -->
