@@ -18,6 +18,12 @@
       @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
       @keyframes shimmer{0%{opacity:.2}50%{opacity:.5}100%{opacity:.2}}
       @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+      @keyframes swing {
+        0% { transform: rotate(3deg); }
+        50% { transform: rotate(-3deg); }
+        100% { transform: rotate(3deg); }
+      }
+      .swing { transform-origin: 210px 93px; animation: swing 4s ease-in-out infinite; }
       .g{animation:glow 3s ease-in-out infinite}
       .ft{animation:float 5s ease-in-out infinite}
       .fi{animation:fadeIn .6s ease-out both}
@@ -35,7 +41,8 @@
   <ellipse cx="210" cy="93" rx="12" ry="8" fill="#66BB6A" opacity=".5" stroke="#2E7D32" stroke-width=".5"/>
   <circle cx="210" cy="93" r="3" fill="#2E7D32" opacity=".3"/>
 
-  <!-- Card body -->
+  <!-- Card body with swing animation -->
+  <g class="swing">
   <rect x="55" y="92" width="310" height="435" rx="24" fill="url(#bg)" filter="url(#sh)" stroke="#66BB6A" stroke-width="1.5" stroke-opacity=".35"/>
   <!-- Inner decorative border -->
   <rect x="65" y="102" width="290" height="415" rx="18" fill="none" stroke="#66BB6A" stroke-width=".5" opacity=".15"/>
@@ -98,4 +105,5 @@
     <rect x="195" width="3" height="20" fill="#1B5E20"/><rect x="200" width="5" height="20" fill="#1B5E20"/>
   </g>
   <text x="210" y="510" text-anchor="middle" font-family="monospace" font-size="7" fill="#2E7D32" opacity=".15" letter-spacing="2">ID-2026-SINGHAYUSH1807</text>
+  </g>
 </svg>
