@@ -5,8 +5,8 @@
 
 <a name="top"></a>
 
-<!-- ═══════════════ ANIMATED WAVE HEADER ═══════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:E8F5E9,50:A5D6A7,100:66BB6A&height=120&section=header&text=&fontSize=0" width="100%"/>
+<!-- ═══════════════ ANIMATED HEADER ═══════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E8F5E9,50:A5D6A7,100:66BB6A&height=100&section=header&text=&fontSize=0" width="100%"/>
 
 <!-- ═══════════════ HERO BANNER ═══════════════ -->
 <picture>
@@ -176,11 +176,14 @@ singhayush1807:~$ learning --active
 
 <div align="center">
 
+<!-- The snake will appear here once the GitHub Action runs. -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake-dark.svg" width="100%">
+  <img alt="GitHub Contribution Snake (Run Action to Generate)" src="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake-dark.svg" width="100%">
 </picture>
+
+> **Note:** To see the snake animation, go to the **Actions** tab in this repository, click **Generate GitHub Snake**, and click **Run workflow**.
 
 </div>
 
@@ -214,5 +217,5 @@ singhayush1807:~$ learning --active
 
 </div>
 
-<!-- ═══════════════ ANIMATED WAVE FOOTER ═══════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:66BB6A,50:A5D6A7,100:E8F5E9&height=120&section=footer" width="100%"/>
+<!-- ═══════════════ ANIMATED FOOTER ═══════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:66BB6A,50:A5D6A7,100:E8F5E9&height=100&section=footer" width="100%"/>
