@@ -43,12 +43,12 @@
 
   <!-- Card body with swing animation -->
   <g class="swing">
-  <rect x="55" y="92" width="310" height="435" rx="24" fill="url(#bg)" filter="url(#sh)" stroke="#66BB6A" stroke-width="1.5" stroke-opacity=".35"/>
+  <rect x="55" y="92" width="310" height="435"  fill="url(#bg)" filter="url(#sh)" stroke="#66BB6A" stroke-width="1.5" stroke-opacity=".35"/>
   <!-- Inner decorative border -->
   <rect x="65" y="102" width="290" height="415" rx="18" fill="none" stroke="#66BB6A" stroke-width=".5" opacity=".15"/>
 
   <!-- Header band -->
-  <rect x="55" y="92" width="310" height="60" rx="24" fill="url(#hdr)"/>
+  <rect x="55" y="92" width="310" height="60"  fill="url(#hdr)"/>
   <rect x="55" y="132" width="310" height="20" fill="url(#hdr)"/>
   <!-- Header text -->
   <text x="210" y="128" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" font-weight="700" fill="#1B5E20" letter-spacing="5" filter="url(#gl)" class="fi">DEVELOPER ID</text>

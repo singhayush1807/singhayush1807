@@ -27,41 +27,43 @@
 <div align="center">
   
   <a name="hero"></a>
-  <img alt="Ayush Kumar — Hero" src="./assets/hero.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Ayush Kumar — Hero" src="./assets/hero.svg?v=11" width="100%"></a>
   
   <a name="id"></a>
-  <img alt="Developer ID Card" src="./assets/lanyard.svg?v=11" width="420">
+  <a href="https://github.com/singhayush1807"><img alt="Developer ID Card" src="./assets/lanyard.svg?v=11" width="420"></a>
   
   <a name="skills"></a>
-  <img alt="Tech Stack" src="./assets/skills.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Tech Stack" src="./assets/skills.svg?v=11" width="100%"></a>
   
   <a name="learning"></a>
-  <img alt="Currently Learning" src="./assets/learning-progress.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Currently Learning" src="./assets/learning-progress.svg?v=11" width="100%"></a>
   
   <a name="projects"></a>
-  <img alt="Featured Projects" src="./assets/projects.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Featured Projects" src="./assets/projects.svg?v=11" width="100%"></a>
   
   <a name="stats"></a>
-  <img alt="GitHub Stats" src="./assets/stats.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="GitHub Stats" src="./assets/stats.svg?v=11" width="100%"></a>
   
   <!-- STREAK STATS -->
   <a name="streak"></a>
-  <img alt="Streak Stats Header" src="./assets/title-streak.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Streak Stats Header" src="./assets/title-streak.svg?v=11" width="100%"></a>
   <br/>
   [![Streak](https://streak-stats.demolab.com?user=singhayush1807&hide_border=true&background=E8F5E9&ring=66BB6A&fire=2E7D32&currStreakLabel=1B5E20&sideLabels=1B5E20&currStreakNum=1B5E20&sideNums=1B5E20&dates=2E7D32&stroke=C8E6C9&v=3)](https://github.com/singhayush1807)
 
   <!-- SNAKE ACTIVITY -->
   <a name="snake"></a>
-  <img alt="Snake Header" src="./assets/title-snake.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Snake Header" src="./assets/title-snake.svg?v=11" width="100%"></a>
   <br/>
+  <a href="https://github.com/singhayush1807">
   <picture>
     <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake.svg">
     <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/singhayush1807/singhayush1807/output/github-snake-dark.svg" width="100%">
   </picture>
+  </a>
 
   <a name="connect"></a>
-  <img alt="Let's Connect" src="./assets/connect.svg?v=11" width="100%">
+  <a href="https://github.com/singhayush1807"><img alt="Let's Connect" src="./assets/connect.svg?v=11" width="100%"></a>
 
 </div>
 
