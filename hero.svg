@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="35%" stop-color="#C8E6C9"/>
+      <stop offset="70%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#81C784"/>
+    </linearGradient>
+    <radialGradient id="gl1" cx="780" cy="200" r="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gl2" cx="120" cy="350" r="250" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#66BB6A" stop-opacity=".12"/>
+      <stop offset="100%" stop-color="#66BB6A" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1B5E20" stroke-width=".3" opacity=".06"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.7" fill="#2E7D32" opacity=".07"/>
+    </pattern>
+    <clipPath id="cc"><rect x="650" y="30" width="280" height="340" rx="24"/></clipPath>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#1B5E20" flood-opacity=".08"/>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      @keyframes fadeUp { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes fadeRight { from{opacity:0;transform:translateX(-15px)} to{opacity:1;transform:translateX(0)} }
+      @keyframes pulse { 0%,100%{opacity:.4} 50%{opacity:1} }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+      @keyframes shimmer { 0%{opacity:.3} 50%{opacity:.7} 100%{opacity:.3} }
+      @keyframes slideIn { from{width:0} to{width:100%} }
+      @keyframes gradientShift { 0%{stop-color:#66BB6A} 50%{stop-color:#2E7D32} 100%{stop-color:#66BB6A} }
+      @keyframes borderPulse { 0%,100%{stroke-opacity:.15} 50%{stroke-opacity:.4} }
+      .cur { animation: blink 1.1s step-end infinite }
+      .f1 { animation: fadeUp .7s ease-out both; animation-delay:.1s }
+      .f2 { animation: fadeUp .7s ease-out both; animation-delay:.3s }
+      .f3 { animation: fadeRight .7s ease-out both; animation-delay:.5s }
+      .f4 { animation: fadeUp .7s ease-out both; animation-delay:.7s }
+      .f5 { animation: fadeUp .7s ease-out both; animation-delay:.9s }
+      .f6 { animation: fadeUp .7s ease-out both; animation-delay:1.1s }
+      .pul { animation: pulse 2.5s ease-in-out infinite }
+      .flt { animation: float 4s ease-in-out infinite }
+      .shm { animation: shimmer 3s ease-in-out infinite }
+      .bp { animation: borderPulse 3s ease-in-out infinite }
+    </style>
+  </defs>
+
+  <!-- ═══ BACKGROUND LAYERS ═══ -->
+  <rect width="960" height="400" fill="url(#bg)"/>
+  <rect width="960" height="400" fill="url(#grid)"/>
+  <rect width="960" height="400" fill="url(#dots)"/>
+  <rect width="960" height="400" fill="url(#gl1)"/>
+  <rect width="960" height="400" fill="url(#gl2)"/>
+
+  <!-- Decorative floating circles -->
+  <circle cx="80" cy="60" r="35" fill="#66BB6A" opacity=".04" class="flt"/>
+  <circle cx="550" cy="350" r="50" fill="#2E7D32" opacity=".03" class="flt" style="animation-delay:1s"/>
+  <circle cx="920" cy="80" r="25" fill="#81C784" opacity=".06" class="flt" style="animation-delay:2s"/>
+  <circle cx="350" cy="30" r="18" fill="#A5D6A7" opacity=".08" class="flt" style="animation-delay:.5s"/>
+
+  <!-- Top accent bar with gradient -->
+  <rect width="960" height="4" fill="#2E7D32" opacity=".25" class="f1"/>
+  <rect width="200" height="4" fill="#66BB6A" opacity=".5" class="shm"/>
+
+  <!-- ═══ LEFT BRACKET ═══ -->
+  <g opacity=".2" class="f1">
+    <line x1="32" y1="45" x2="32" y2="355" stroke="#1B5E20" stroke-width="2" stroke-linecap="round"/>
+    <line x1="32" y1="45" x2="50" y2="45" stroke="#1B5E20" stroke-width="2" stroke-linecap="round"/>
+    <line x1="32" y1="355" x2="50" y2="355" stroke="#1B5E20" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══ LINE NUMBERS ═══ -->
+  <g class="f1" font-family="'JetBrains Mono','Fira Code','Cascadia Code',monospace" font-size="10" fill="#1B5E20" opacity=".2">
+    <text x="56" y="82">01</text>
+    <text x="56" y="118">02</text>
+    <text x="56" y="154">03</text>
+    <text x="56" y="190">04</text>
+    <text x="56" y="226">05</text>
+    <text x="56" y="262">06</text>
+    <text x="56" y="298">07</text>
+    <text x="56" y="334">08</text>
+    <text x="56" y="370">09</text>
+  </g>
+  <line x1="76" y1="65" x2="76" y2="375" stroke="#2E7D32" stroke-width=".8" opacity=".08" class="f1"/>
+
+  <!-- ═══ MAIN TEXT CONTENT ═══ -->
+  <!-- Comment line -->
+  <text x="90" y="82" font-family="'JetBrains Mono','Fira Code',monospace" font-size="13" fill="#2E7D32" opacity=".45" class="f2">// hello, world — welcome to my profile</text>
+
+  <!-- Name - big and bold -->
+  <g class="f2">
+    <text x="90" y="130" font-family="'Inter','Segoe UI',system-ui,sans-serif" font-size="48" font-weight="900" fill="#1B5E20" letter-spacing="-2" filter="url(#textGlow)">Ayush Kumar</text>
+  </g>
+
+  <!-- Role badge with icon -->
+  <g class="f3">
+    <rect x="90" y="148" width="280" height="32" rx="16" fill="#66BB6A" opacity=".2"/>
+    <rect x="90" y="148" width="280" height="32" rx="16" fill="none" stroke="#2E7D32" stroke-width=".7" stroke-opacity=".2"/>
+    <text x="108" y="169" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700" fill="#1B5E20">💻 CSE Student · Full Stack Developer</text>
+  </g>
+
+  <!-- Location with animated dot -->
+  <g class="f4">
+    <text x="90" y="210" font-family="'JetBrains Mono',monospace" font-size="12" fill="#2E7D32" opacity=".7">📍 Vaishali, Bihar · PCE Jaipur</text>
+  </g>
+
+  <!-- Description lines -->
+  <g class="f4">
+    <text x="90" y="242" font-family="'Inter','Segoe UI',sans-serif" font-size="14" fill="#1B5E20" opacity=".8">Building tournament platforms, blogs, and tools with</text>
+    <text x="90" y="264" font-family="'Inter','Segoe UI',sans-serif" font-size="14" fill="#1B5E20" opacity=".8">the MERN stack, C++, and Python.</text>
+  </g>
+
+  <!-- Status line -->
+  <g class="f5">
+    <circle cx="98" cy="298" r="5.5" fill="none" stroke="#2E7D32" stroke-width="1.5" opacity=".3"/>
+    <circle cx="98" cy="298" r="3.5" fill="#2E7D32" class="pul"/>
+    <text x="112" y="302" font-family="'JetBrains Mono',monospace" font-size="12" fill="#1B5E20" opacity=".7">Open to opportunities &amp; collaboration</text>
+  </g>
+
+  <!-- Terminal prompt -->
+  <g class="f6">
+    <rect x="90" y="322" width="480" height="32" rx="8" fill="#1B5E20" opacity=".05"/>
+    <text x="102" y="343" font-family="'JetBrains Mono',monospace" font-size="12" fill="#2E7D32" opacity=".5">singhayush1807</text>
+    <text x="223" y="343" font-family="'JetBrains Mono',monospace" font-size="12" fill="#1B5E20" opacity=".4">:</text>
+    <text x="230" y="343" font-family="'JetBrains Mono',monospace" font-size="12" fill="#66BB6A" opacity=".5">~</text>
+    <text x="240" y="343" font-family="'JetBrains Mono',monospace" font-size="12" fill="#1B5E20" opacity=".4">$</text>
+    <text x="254" y="343" font-family="'JetBrains Mono',monospace" font-size="12" fill="#1B5E20" opacity=".8">cat README.md</text>
+    <rect x="380" y="331" width="9" height="16" rx="1" fill="#2E7D32" class="cur"/>
+  </g>
+
+  <!-- ═══ CHARACTER IMAGE ═══ -->
+  <g class="f3">
+    <!-- Outer glow ring -->
+    <rect x="644" y="24" width="292" height="352" rx="28" fill="#66BB6A" opacity=".06"/>
+    <rect x="644" y="24" width="292" height="352" rx="28" fill="none" stroke="#66BB6A" stroke-width="1.5" class="bp"/>
+    <!-- Inner card -->
+    <rect x="650" y="30" width="280" height="340" rx="24" fill="#fff" opacity=".35" filter="url(#cardShadow)"/>
+    <!-- Character -->
+    <image href="./character.png" x="655" y="35" width="270" height="330" clip-path="url(#cc)" preserveAspectRatio="xMidYMid slice"/>
+    <!-- Subtle inner border -->
+    <rect x="650" y="30" width="280" height="340" rx="24" fill="none" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".1"/>
+  </g>
+
+  <!-- ═══ BOTTOM DECORATIVE ELEMENTS ═══ -->
+  <!-- Wave-like bottom border -->
+  <path d="M0 392 Q120 380, 240 392 T480 392 T720 392 T960 392 L960 400 L0 400 Z" fill="#2E7D32" opacity=".06"/>
+  <rect y="397" width="960" height="3" fill="#66BB6A" opacity=".2"/>
+
+  <!-- Corner accent marks -->
+  <g opacity=".1">
+    <line x1="920" y1="380" x2="940" y2="380" stroke="#1B5E20" stroke-width="1"/>
+    <line x1="940" y1="360" x2="940" y2="380" stroke="#1B5E20" stroke-width="1"/>
+  </g>
+</svg>

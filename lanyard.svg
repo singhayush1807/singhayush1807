@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 560" width="420" height="560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="420" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8F5E9"/><stop offset="100%" stop-color="#A5D6A7"/>
+    </linearGradient>
+    <linearGradient id="str" x1="180" y1="0" x2="240" y2="95" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#81C784"/><stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="hdr" x1="60" y1="95" x2="360" y2="155" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#66BB6A" stop-opacity=".3"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity=".2"/>
+    </linearGradient>
+    <clipPath id="av"><circle cx="210" cy="210" r="58"/></clipPath>
+    <filter id="sh"><feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#1B5E20" flood-opacity=".1"/></filter>
+    <filter id="gl"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      @keyframes glow{0%,100%{opacity:.3}50%{opacity:1}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+      @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes shimmer{0%{opacity:.2}50%{opacity:.5}100%{opacity:.2}}
+      @keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+      .g{animation:glow 3s ease-in-out infinite}
+      .ft{animation:float 5s ease-in-out infinite}
+      .fi{animation:fadeIn .6s ease-out both}
+      .f2{animation:fadeIn .6s ease-out both;animation-delay:.2s}
+      .f3{animation:fadeIn .6s ease-out both;animation-delay:.4s}
+      .f4{animation:fadeIn .6s ease-out both;animation-delay:.6s}
+      .sh{animation:shimmer 4s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <!-- Lanyard strap -->
+  <rect x="190" y="0" width="40" height="95" rx="6" fill="url(#str)"/>
+  <rect x="195" y="0" width="30" height="95" rx="4" fill="#fff" opacity=".1"/>
+  <!-- Clip/clasp -->
+  <ellipse cx="210" cy="93" rx="12" ry="8" fill="#66BB6A" opacity=".5" stroke="#2E7D32" stroke-width=".5"/>
+  <circle cx="210" cy="93" r="3" fill="#2E7D32" opacity=".3"/>
+
+  <!-- Card body -->
+  <rect x="55" y="92" width="310" height="435" rx="24" fill="url(#bg)" filter="url(#sh)" stroke="#66BB6A" stroke-width="1.5" stroke-opacity=".35"/>
+  <!-- Inner decorative border -->
+  <rect x="65" y="102" width="290" height="415" rx="18" fill="none" stroke="#66BB6A" stroke-width=".5" opacity=".15"/>
+
+  <!-- Header band -->
+  <rect x="55" y="92" width="310" height="60" rx="24" fill="url(#hdr)"/>
+  <rect x="55" y="132" width="310" height="20" fill="url(#hdr)"/>
+  <!-- Header text -->
+  <text x="210" y="128" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" font-weight="700" fill="#1B5E20" letter-spacing="5" filter="url(#gl)" class="fi">DEVELOPER ID</text>
+
+  <!-- Avatar circle with ring -->
+  <circle cx="210" cy="210" r="65" fill="#66BB6A" opacity=".08" class="ft"/>
+  <circle cx="210" cy="210" r="62" fill="none" stroke="#66BB6A" stroke-width="2" stroke-opacity=".2" stroke-dasharray="4 4" class="sh"/>
+  <circle cx="210" cy="210" r="60" fill="#fff" opacity=".2" stroke="#2E7D32" stroke-width="1.5" stroke-opacity=".2"/>
+  <!-- Avatar image (selfie) -->
+  <image href="./photo.png" x="152" y="152" width="116" height="116" clip-path="url(#av)" preserveAspectRatio="xMidYMid slice" class="f2"/>
+  <!-- Online indicator -->
+  <circle cx="256" cy="256" r="10" fill="#E8F5E9" class="f3"/>
+  <circle cx="256" cy="256" r="7" fill="#2E7D32" class="g"/>
+
+  <!-- Name -->
+  <text x="210" y="300" text-anchor="middle" font-family="'Inter',sans-serif" font-size="24" font-weight="800" fill="#1B5E20" class="f3">Ayush Kumar</text>
+
+  <!-- Role badge -->
+  <rect x="105" y="312" width="210" height="28" rx="14" fill="#66BB6A" opacity=".15" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".2" class="f3"/>
+  <text x="210" y="331" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="10" font-weight="600" fill="#1B5E20" class="f3">B.Tech CSE · PCE Jaipur</text>
+
+  <!-- Info rows -->
+  <g class="f4" font-family="'JetBrains Mono',monospace">
+    <text x="85" y="368" font-size="9" fill="#2E7D32" opacity=".45">HANDLE</text>
+    <text x="240" y="368" font-size="11" fill="#1B5E20" font-weight="600">@singhayush1807</text>
+    <line x1="85" y1="378" x2="335" y2="378" stroke="#66BB6A" stroke-width=".8" opacity=".15"/>
+
+    <text x="85" y="398" font-size="9" fill="#2E7D32" opacity=".45">HOME</text>
+    <text x="240" y="398" font-size="11" fill="#1B5E20" font-weight="600">Vaishali, Bihar</text>
+    <line x1="85" y1="408" x2="335" y2="408" stroke="#66BB6A" stroke-width=".8" opacity=".15"/>
+
+    <text x="85" y="428" font-size="9" fill="#2E7D32" opacity=".45">FOCUS</text>
+    <text x="240" y="428" font-size="11" fill="#1B5E20" font-weight="600">DSA · Full Stack</text>
+    <line x1="85" y1="438" x2="335" y2="438" stroke="#66BB6A" stroke-width=".8" opacity=".15"/>
+
+    <text x="85" y="458" font-size="9" fill="#2E7D32" opacity=".45">STACK</text>
+    <text x="240" y="458" font-size="11" fill="#1B5E20" font-weight="600">MERN · C++ · Python</text>
+  </g>
+
+  <!-- Barcode -->
+  <g opacity=".08" transform="translate(105,475)">
+    <rect width="4" height="20" fill="#1B5E20"/><rect x="6" width="2" height="20" fill="#1B5E20"/><rect x="10" width="5" height="20" fill="#1B5E20"/>
+    <rect x="17" width="3" height="20" fill="#1B5E20"/><rect x="22" width="1.5" height="20" fill="#1B5E20"/><rect x="25" width="4" height="20" fill="#1B5E20"/>
+    <rect x="31" width="6" height="20" fill="#1B5E20"/><rect x="39" width="2" height="20" fill="#1B5E20"/><rect x="43" width="3" height="20" fill="#1B5E20"/>
+    <rect x="48" width="5" height="20" fill="#1B5E20"/><rect x="55" width="1.5" height="20" fill="#1B5E20"/><rect x="58" width="4" height="20" fill="#1B5E20"/>
+    <rect x="64" width="3" height="20" fill="#1B5E20"/><rect x="69" width="6" height="20" fill="#1B5E20"/><rect x="77" width="2" height="20" fill="#1B5E20"/>
+    <rect x="81" width="4" height="20" fill="#1B5E20"/><rect x="87" width="3" height="20" fill="#1B5E20"/><rect x="92" width="1.5" height="20" fill="#1B5E20"/>
+    <rect x="95" width="5" height="20" fill="#1B5E20"/><rect x="102" width="2" height="20" fill="#1B5E20"/><rect x="106" width="6" height="20" fill="#1B5E20"/>
+    <rect x="114" width="3" height="20" fill="#1B5E20"/><rect x="119" width="4" height="20" fill="#1B5E20"/><rect x="125" width="1.5" height="20" fill="#1B5E20"/>
+    <rect x="128" width="5" height="20" fill="#1B5E20"/><rect x="135" width="2" height="20" fill="#1B5E20"/><rect x="139" width="3" height="20" fill="#1B5E20"/>
+    <rect x="144" width="6" height="20" fill="#1B5E20"/><rect x="152" width="4" height="20" fill="#1B5E20"/><rect x="158" width="2" height="20" fill="#1B5E20"/>
+    <rect x="162" width="5" height="20" fill="#1B5E20"/><rect x="169" width="1.5" height="20" fill="#1B5E20"/><rect x="172" width="3" height="20" fill="#1B5E20"/>
+    <rect x="177" width="4" height="20" fill="#1B5E20"/><rect x="183" width="6" height="20" fill="#1B5E20"/><rect x="191" width="2" height="20" fill="#1B5E20"/>
+    <rect x="195" width="3" height="20" fill="#1B5E20"/><rect x="200" width="5" height="20" fill="#1B5E20"/>
+  </g>
+  <text x="210" y="510" text-anchor="middle" font-family="monospace" font-size="7" fill="#2E7D32" opacity=".15" letter-spacing="2">ID-2026-SINGHAYUSH1807</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130" width="900" height="130" fill="none">
+  <defs>
+    <linearGradient id="pBg" x1="0" y1="0" x2="900" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="130" fill="url(#pBg)" rx="14"/>
+  <rect width="900" height="130" rx="14" fill="none" stroke="#66BB6A" stroke-width="1" stroke-opacity=".3"/>
+  <text x="40" y="36" font-family="monospace" font-size="13" font-weight="700" fill="#1B5E20">// featured_projects</text>
+  <line x1="40" y1="48" x2="860" y2="48" stroke="#66BB6A" stroke-width="1" opacity=".3"/>
+  <!-- PrimeCup (first) -->
+  <g transform="translate(40,60)">
+    <rect width="130" height="50" rx="12" fill="#66BB6A" opacity=".18" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".3"/>
+    <text x="14" y="20" font-family="monospace" font-size="16">🏆</text>
+    <text x="38" y="21" font-family="sans-serif" font-size="12" font-weight="700" fill="#1B5E20">PrimeCup</text>
+    <text x="14" y="40" font-family="monospace" font-size="8" fill="#2E7D32" opacity=".7">Tournament App</text>
+  </g>
+  <!-- BLOG (second) -->
+  <g transform="translate(180,60)">
+    <rect width="130" height="50" rx="12" fill="#66BB6A" opacity=".18" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".3"/>
+    <text x="14" y="20" font-family="monospace" font-size="16">📝</text>
+    <text x="38" y="21" font-family="sans-serif" font-size="12" font-weight="700" fill="#1B5E20">BLOG</text>
+    <text x="14" y="40" font-family="monospace" font-size="8" fill="#2E7D32" opacity=".7">MERN Stack</text>
+  </g>
+  <!-- Calculator -->
+  <g transform="translate(320,60)">
+    <rect width="120" height="50" rx="12" fill="#A5D6A7" opacity=".2" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".2"/>
+    <text x="14" y="20" font-family="monospace" font-size="16">🧮</text>
+    <text x="38" y="21" font-family="sans-serif" font-size="12" font-weight="700" fill="#1B5E20">Calculator</text>
+    <text x="14" y="40" font-family="monospace" font-size="8" fill="#2E7D32" opacity=".7">JS · HTML · CSS</text>
+  </g>
+  <!-- cpp-todo-list -->
+  <g transform="translate(450,60)">
+    <rect width="120" height="50" rx="12" fill="#A5D6A7" opacity=".2" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".2"/>
+    <text x="14" y="20" font-family="monospace" font-size="16">📋</text>
+    <text x="38" y="21" font-family="sans-serif" font-size="12" font-weight="700" fill="#1B5E20">cpp-todo-list</text>
+    <text x="14" y="40" font-family="monospace" font-size="8" fill="#2E7D32" opacity=".7">C++</text>
+  </g>
+  <!-- leaderboard -->
+  <g transform="translate(580,60)">
+    <rect width="120" height="50" rx="12" fill="#A5D6A7" opacity=".2" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".2"/>
+    <text x="14" y="20" font-family="monospace" font-size="16">📊</text>
+    <text x="38" y="21" font-family="sans-serif" font-size="12" font-weight="700" fill="#1B5E20">leaderboard</text>
+    <text x="14" y="40" font-family="monospace" font-size="8" fill="#2E7D32" opacity=".7">Web</text>
+  </g>
+  <!-- data-analysis -->
+  <g transform="translate(710,60)">
+    <rect width="140" height="50" rx="12" fill="#A5D6A7" opacity=".2" stroke="#2E7D32" stroke-width=".5" stroke-opacity=".2"/>
+    <text x="14" y="20" font-family="monospace" font-size="16">🐍</text>
+    <text x="38" y="21" font-family="sans-serif" font-size="12" font-weight="700" fill="#1B5E20">data-analysis</text>
+    <text x="14" y="40" font-family="monospace" font-size="8" fill="#2E7D32" opacity=".7">Python</text>
+  </g>
+</svg>
